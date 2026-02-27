@@ -1,0 +1,29 @@
+.gdtp-front {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 20px;
+  align-items: start;
+  margin: 20px 0;
+}
+
+.gdtp-front .gdtp-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gdtp-front input[type="text"],
+.gdtp-front input[type="email"],
+.gdtp-front input[type="file"] {
+  width: 100%;
+}
+
+.gdtp-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.gdtp-result-image {
+  max-width: 100%;
+  border: 1px solid #ddd;
+}

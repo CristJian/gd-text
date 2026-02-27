@@ -1,0 +1,16 @@
+.gdtp-builder .gdtp-size label,
+.gdtp-builder .gdtp-background label {
+  display: block;
+  margin: 8px 0;
+}
+
+.gdtp-preview-wrap {
+  margin-top: 12px;
+  max-width: 420px;
+}
+
+.gdtp-preview-wrap img {
+  max-width: 100%;
+  border: 1px solid #dcdcde;
+  display: none;
+}
